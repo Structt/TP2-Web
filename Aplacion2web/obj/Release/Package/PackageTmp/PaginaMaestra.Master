@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PaginaMaestra.master.cs" Inherits="Aplacion2web.PaginaMaestra" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server"></asp:ContentPlaceHolder>
+    </title>
+
+    <link href="CSS/index.css" rel="stylesheet" type="text/css" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <header class="header">
+        
+        <div class="logo">       
+
+            <asp:Label runat="server" ID="lbTituloMaster" Text="Trabajo Pratico N° 2 WEB"></asp:Label>
+         
+        </div>
+            
+       
+        <div class="navbar">
+            <a href="Ejercicio1.aspx">Ejercicio <span>1</span> </a>
+            <a href="Ejercicio2.aspx">Ejercicio <span>2</span></a>
+            <a href="Ejercicio3.aspx">Ejercicio <span>3</span></a>
+            <a href="Ejercicio4-5.aspx">Ejercicio <span>4-5</span></a>
+        </div>
+
+    </header>
+
+    <main>
+    <div class="body">
+        
+        <asp:ContentPlaceHolder ID="body" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,145 @@
+﻿
+*{
+    margin:0px;
+    padding:0px;
+}
+
+:root{
+    --tipoLetra-pri:Tahoma;
+}
+
+.header{
+    
+    background-color:black;
+    display:flex;
+    flex-direction:column;
+    
+}
+
+.logo {
+    color: white;
+    font-family: var(--tipoLetra-pri);
+    font-size: 20px;
+    padding:4%;
+    //background-color:aliceblue;
+}
+
+.navbar {
+    font-family: var(--tipoLetra-pri);
+    display: flex;
+    background-color:aqua;
+    padding:4px;
+}
+
+    .navbar a {
+        font-family: var(--tipoLetra-pri);
+        color: black;
+        text-align: center;
+        flex-grow: 1;
+        border-radius: 2px;
+        text-decoration: none;
+    }
+
+a span {
+    transition: .5s linear;
+}
+a:hover span {
+    margin-left: 3px;
+    font-size:20px;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+main{
+   // background-color:aquamarine;
+    display:flex;
+    justify-content:center;
+}
+.body{
+
+    //background-color:aqua;
+    padding:5px;
+    margin:8px;
+    width:80%;
+}
+
+.ListaColores{
+    background-color: aliceblue;
+   
+
+}
+
+.ListaColores ul{
+    list-style:none;
+    display:flex;
+}
+.ListaColores ul li{
+    flex-grow:1;
+    text-align:center;
+}
+
+
+.Contenlogin {
+    //background-color: aqua;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.login{
+     width:50%;
+     padding:8%;
+     background-color:antiquewhite;
+     border-radius:5px;
+}
+
+.inputs{
+   // background-color:rebeccapurple;
+    padding:2px;
+    display:flex;
+   justify-content:space-between;
+   margin:15px;
+    
+}
+
+
+.styleTxt{
+    width:50%;
+    font-size:20px;
+}
+
+.MessWar
+{
+    color:red;
+
+}
+
+.Contenedor{
+   // background-color:red;
+    display:flex;
+    
+    flex-direction:column;
+    
+}
+
+
+
+.row-p1 {
+  // background-color: aqua;
+   display:flex;
+   flex-direction:row;
+   justify-content:center;
+   margin-top:5px;
+   
+}
+
+.col{
+    flex-grow:1;
+}
+
+.row-p2 {
+    background-color: antiquewhite;
+    
+}
